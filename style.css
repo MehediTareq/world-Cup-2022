@@ -316,6 +316,12 @@ hr {
         background-position: left;
     }
 
+    .top-banner-description {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
     .all-matches {
         display: flex;
         flex-direction: column;

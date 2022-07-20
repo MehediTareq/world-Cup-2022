@@ -187,6 +187,7 @@ hr {
 }
 
 .links small {
+
     margin-right: 10px;
     font-size: 12px;
     font-weight: 500;
@@ -210,6 +211,7 @@ hr {
 .social-links i {
     margin: 20px 10px 0 0;
     font-size: 25px;
+    color: white;
 }
 
 /* -----------Media Query------- 
@@ -228,7 +230,18 @@ hr {
     }
 
     .btn {
-        border-radius: 10px;
+        font: 22px Arial;
+        display: inline-block;
+        padding: 20px 40px;
+        text-align: center;
+        color: black;
+        background: linear-gradient(to left, white 50%, brown 50%) right;
+        background-size: 200%;
+        transition: .5s ease-out;
+    }
+
+    .btn:hover {
+        background-position: left;
     }
 
     .all-matches {
@@ -268,9 +281,7 @@ hr {
         display: none;
     }
 
-
     .footer {
-        background-color: brown;
         height: 300px;
     }
 }
@@ -291,7 +302,18 @@ hr {
     }
 
     .btn {
-        border-radius: 10px;
+        font: 22px Arial;
+        display: inline-block;
+        padding: 20px 40px;
+        text-align: center;
+        color: black;
+        background: linear-gradient(to left, white 50%, brown 50%) right;
+        background-size: 200%;
+        transition: .5s ease-out;
+    }
+
+    .btn:hover {
+        background-position: left;
     }
 
     .all-matches {
@@ -326,11 +348,16 @@ hr {
         flex-direction: column;
     }
 
+    .links small {
+        margin-top: 10px;
+    }
+
     .social-links {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        color: white;
     }
 
 }

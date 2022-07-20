@@ -32,12 +32,6 @@ body {
     font-weight: 400;
 }
 
-.flags {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-}
-
 .btn {
     font: 22px Arial;
     display: inline-block;
@@ -74,6 +68,11 @@ body {
     margin-bottom: 130px;
 }
 
+#blog {
+    background-color: purple;
+    color: white;
+}
+
 .all-matches-left {
     background-color: black;
     display: flex;
@@ -108,15 +107,6 @@ body {
     flex-grow: 1;
 }
 
-.matches-info {
-    padding: 5px 10px;
-}
-
-#blog {
-    background-color: red;
-    color: white;
-}
-
 .matches {
     width: 312px;
     height: fit-content;
@@ -127,6 +117,16 @@ body {
 .upcoming {
     padding: 10px 0;
     text-align: center;
+}
+
+.flags {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.matches-info {
+    padding: 5px 10px;
 }
 
 .transfer-btn {
@@ -229,21 +229,6 @@ hr {
         padding: 2%;
     }
 
-    .btn {
-        font: 22px Arial;
-        display: inline-block;
-        padding: 20px 40px;
-        text-align: center;
-        color: black;
-        background: linear-gradient(to left, white 50%, brown 50%) right;
-        background-size: 200%;
-        transition: .5s ease-out;
-    }
-
-    .btn:hover {
-        background-position: left;
-    }
-
     .all-matches {
         display: flex;
         flex-direction: column;
@@ -299,21 +284,6 @@ hr {
 
     .top-banner-right img {
         width: 50%;
-    }
-
-    .btn {
-        font: 22px Arial;
-        display: inline-block;
-        padding: 20px 40px;
-        text-align: center;
-        color: black;
-        background: linear-gradient(to left, white 50%, brown 50%) right;
-        background-size: 200%;
-        transition: .5s ease-out;
-    }
-
-    .btn:hover {
-        background-position: left;
     }
 
     .top-banner-description {

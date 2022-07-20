@@ -268,12 +268,6 @@ hr {
         display: none;
     }
 
-    .social-links {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
 
     .footer {
         background-color: brown;
